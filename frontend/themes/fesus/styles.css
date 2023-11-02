@@ -2,6 +2,7 @@
 @import url('./views/enroll-student-view.css');
 @import url('./views/teacher-detail-view.css');
 @import url('./views/student-detail-view.css');
+@import url('./views/certificats-view.css');
 html {
       --lumo-shade-5pct: rgba(33, 33, 33, 0.05);
       --lumo-shade-10pct: rgba(33, 33, 33, 0.1);

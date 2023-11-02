@@ -1,3 +1,7 @@
 .sideNavi{
     background-color: #133e72;
 }
+.clickable-paragraph{
+    text-decoration-color: dodgerblue;
+    cursor: pointer;
+}
