@@ -1,5 +1,6 @@
 package com.feswiesbaden.fesus.application.data.entity;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.validation.constraints.Email;
 import java.time.LocalDate;

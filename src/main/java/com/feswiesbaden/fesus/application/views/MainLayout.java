@@ -3,6 +3,7 @@ package com.feswiesbaden.fesus.application.views;
 import com.feswiesbaden.fesus.application.data.entity.User;
 import com.feswiesbaden.fesus.application.security.AuthenticatedUser;
 import com.feswiesbaden.fesus.application.views.about.AboutView;
+import com.feswiesbaden.fesus.application.views.certificats.Certificats;
 import com.feswiesbaden.fesus.application.views.enrollstudent.EnrollStudentView;
 import com.feswiesbaden.fesus.application.views.helloadmin.HelloAdminView;
 import com.feswiesbaden.fesus.application.views.hellouser.HelloUserView;
@@ -93,7 +94,7 @@ public class MainLayout extends AppLayout {
         }*/
 
         if (accessChecker.hasAccess(EnrollStudentView.class)) {
-            nav.addItem(new SideNavItem("Einschulungsformular", EnrollStudentView.class,
+            nav.addItem(new SideNavItem("Einschulungsformular", Certificats.class,
                     LineAwesomeIcon.USER_EDIT_SOLID.create()));
 
         }

@@ -39,7 +39,7 @@ import java.util.Optional;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.orm.ObjectOptimisticLockingFailureException;
 
-@PageTitle("Teacher Detail")
+@PageTitle("Lehrerübersicht")
 @Route(value = "teacher-Detail/:teacherID?/:action?(edit)", layout = MainLayout.class)
 @RolesAllowed("ADMIN")
 @Uses(Icon.class)
